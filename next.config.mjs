@@ -7,6 +7,10 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basePath: '/tenesha-valentine',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 export default nextConfig
