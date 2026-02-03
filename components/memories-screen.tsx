@@ -9,12 +9,12 @@ interface MemoriesScreenProps {
 }
 
 const memories = [
-  { id: 1, caption: "Our first date together", image: "/photo1.png" },
-  { id: 2, caption: "That special moment", image: "/photo2.png" },
-  { id: 3, caption: "Making memories", image: "/photo3.png" },
-  { id: 4, caption: "My favorite smile", image: "/photo4.png" },
-  { id: 5, caption: "Us being us", image: "/photo5.png" },
-  { id: 6, caption: "Forever grateful for you", image: "/photo6.png" },
+  { id: 1, caption: "Our first date together", image: "/tenesha-valentine/photo1.png" },
+  { id: 2, caption: "That special moment", image: "/tenesha-valentine/photo2.png" },
+  { id: 3, caption: "Making memories", image: "/tenesha-valentine/photo3.png" },
+  { id: 4, caption: "My favorite smile", image: "/tenesha-valentine/photo4.png" },
+  { id: 5, caption: "Us being us", image: "/tenesha-valentine/photo5.png" },
+  { id: 6, caption: "Forever grateful for you", image: "/tenesha-valentine/photo6.png" },
 ];
 
 export function MemoriesScreen({ onNext }: MemoriesScreenProps) {
